@@ -50,6 +50,7 @@
         name: nginx
         state: restarted
       
-    - name: analysis-icu
-      elasticsearch_plugin:
-        state: present
+    - elasticsearch_plugin:
+       name: analysis-icu
+       state: present
+
