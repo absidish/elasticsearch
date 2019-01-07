@@ -49,3 +49,7 @@
       service:
         name: nginx
         state: restarted
+      
+    - name: analysis-icu
+      elasticsearch_plugin:
+        state: present
