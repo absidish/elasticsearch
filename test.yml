@@ -1,0 +1,6 @@
+---
+- hosts: all
+  sudo: yes
+  tasks:
+    - name: exec shell
+      shell: echo "12345" >> /tmp/my_message.log
